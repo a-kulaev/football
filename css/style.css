@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #8dc63f;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 960px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header b,
+.header strong {
+    display: block;
+    font-size: 44;
+    font-size: 44px;
+
+}
+
+.header p {
+    margin: 0;
+    font-size: 22px;
+    color: #39930d;
+}
+
+.header i {
+    font-size: 14px;
+    color: #5a5a5a;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-left: 35px;
+    transition: all 1s ease;
+}
+
+.logo img:hover {
+    padding-left: 200px;
+}
+
+.contacts a {
+    display: block;
+    font-size: 22px;
+    color: #39930d;
+    text-decoration: none;
+}
+
+
+.contacts p {
+    text-align: right;
+}
+
+.image {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.main {
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    max-width: 600px;
+    padding: 25 0px;
+}
+
+.content h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #39930d;
+}
+
+.content p {
+    font-size: 14px;
+    line-height: 21px;
+    color: #343434;
+}
+
+.menu {
+    width: 300px;
+}
+
+.menu a {
+    display: block;
+    padding: 9px 20px 7px 20px;
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #39930d;
+    transition: all 0.5s ease;
+}
+
+.menu a:hover {
+    padding: 9px 20px 7px 25px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #343434;
+}
+
+.menu ul {
+    margin: 10px 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.menu p {
+    margin: 0;
+    padding: 11px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #39930d;
+}
+
+.footer {
+    margin: 0 -15px;
+    padding: 14px 15px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #39930d;
+}
