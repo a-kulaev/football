@@ -44,6 +44,7 @@ body {
 .logo {
     display: flex;
     align-items: center;
+    cursor: url('../img/cursor.cur'), auto;
 }
 
 .logo img {
